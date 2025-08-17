@@ -1,0 +1,26 @@
+/* Estilo base para el body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Contenedor de la imagen */
+.image-container {
+  width: 100%;
+  max-width: 600px; /* Puedes ajustar este valor según el tamaño máximo que desees */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Imagen adaptable a tamaño de teléfono móvil */
+.responsive-img {
+  width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la relación de aspecto original de la imagen */
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+}
